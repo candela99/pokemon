@@ -16,3 +16,5 @@ function getPokemon(idPokemon) {
 })
 .catch(err => console.log(err))
 }
+
+getPokemon(3);
